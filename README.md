@@ -6,7 +6,7 @@ The implementation provided here uses a pretrained **ResNet18** image-classifica
 
 > **Important:** The current `test_fast.py` script evaluates the labelled data in `data/train_set/`. It does **not** run inference on the separate, unlabelled `data/test_set/` videos. Therefore, the accuracy printed by this script must not be described as unseen-test-set accuracy.
 
-## 1.structure
+## 1.Project structure
 
 Put the four Python scripts and the README in the **project root**. The `data` directory must be at the same level as those scripts.
 
